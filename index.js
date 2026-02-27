@@ -41,7 +41,7 @@ const callAI = async (history, extraInstruction = "", temp = 0.75) => {
   const res = await axios.post(
     "https://polza.ai/api/v1/chat/completions",
     {
-      model: process.env.MODEL_ID || "anthropic/claude-sonnet-4.6",
+      model: "anthropic/claude-sonnet-4.6",
       messages,
       provider: { allow_fallbacks: true },
       temperature: temp,

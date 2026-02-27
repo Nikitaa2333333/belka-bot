@@ -1,0 +1,15 @@
+{
+  "name": "belka-copywriter-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "axios": "^1.7.0",
+    "dotenv": "^16.0.0",
+    "form-data": "^4.0.0",
+    "node-fetch": "^2.7.0"
+  }
+}
